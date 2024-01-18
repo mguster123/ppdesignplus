@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Your Furniture Making Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/dist/css/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="align-items-center text-white text-center py-5">
+        <div id="hero-background"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Welcome to <span>Your Furniture Making Company</span></h1>
+                    <h2>Crafting Custom Furniture with Passion</h2>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 content">
+                    <h3>Crafting Unique and Quality Furniture</h3>
+                    <p>Your satisfaction is our priority. We've been crafting custom furniture with passion and dedication for generations. Our commitment to excellence has earned us recognition and awards.</p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i> High-Quality Designs</li>
+                        <li><i class="bi bi-check-circle"></i> Award-Winning Craftsmanship</li>
+                        <li><i class="bi bi-check-circle"></i> Timeless Elegance</li>
+                    </ul>
+                    <p>Our journey began in the 18th century, and we continue to create bespoke furniture that stands the test of time.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-us-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Crafted Furniture Example">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-us">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us?</h2>
+                <p>Discover the Reasons to Choose Our Furniture</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span>01</span>
+                        <h4>Custom Designs</h4>
+                        <p>Our bespoke furniture is tailored to your unique style, ensuring a perfect fit for your space.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span>02</span>
+                        <h4>Quality Craftsmanship</h4>
+                        <p>Experience the highest standards of craftsmanship with our skilled artisans.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span>03</span>
+                        <h4>Prime Location</h4>
+                        <p>Conveniently located at the heart of the city, making it easy for you to visit and explore our showroom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <!-- Add your services content and images here -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in Touch</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <div class="address">
+                            <i class="bi bi-geo-alt"></i>
+                            <h4>Location:</h4>
+                            <p>Your Furniture Making Company, Street Address, City, Country</p>
+                        </div>
+                        <div class="working-hours">
+                            <i class="bi bi-clock"></i>
+                            <h4>Working Hours:</h4>
+                            <p>Monday - Friday: 9 AM - 6 PM</p>
+                        </div>
+                        <div class="email">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@yourfurniturecompany.com</p>
+                        </div>
+                        <div class="phone">
+                            <i class="bi bi-phone"></i>
+                            <h4>Phone:</h4>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form">
+                    <div class="row">
+                    <div class="col-md-6">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    </div>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                    <textarea class="form-control" id="message" placeholder="Your Message" rows="6"></textarea>
+                    <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                    </form>
+                    </div>
+                    </div>
+                    </div>
+                    </section><!-- Footer Section -->
+                    <footer class="bg-dark text-white text-center py-4">
+                        <p>&copy; 2023 Your Furniture Making Company. All rights reserved.</p>
+                    </footer>
+                    
+                    <!-- Bootstrap JS and Popper.js -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                    </body>
+                    </html>

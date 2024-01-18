@@ -1,0 +1,105 @@
+/* styles.css */
+
+
+.button-text {
+    background-color: #00ff2f; /* Change the background color as needed */
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff; /* Change the text color as needed */
+}
+
+.button-text h2, .button-text p {
+    margin-bottom: 15px;
+}
+
+
+#pocetna {
+    background-color: #007bff; /* Change this to the desired background color */
+    color: #fff; /* Change this to the desired text color */
+    padding: 20px; /* Adjust the padding as needed */
+    border-radius: 5px; /* Add rounded corners if desired */
+}
+
+
+#home {
+
+    background-color: rgb(0, 50, 160); /* Set your desired background color */
+    padding: 20px; /* Add padding for better visibility */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 50, 160);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: rgb(0, 50, 160);
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(0, 50, 160);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact Section Styles */
+
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map {
+    flex: 1;
+    margin: 20px;
+    height: 300px; /* Set a fixed height for the map */
+}
+
+.details {
+    flex: 1;
+    margin: 20px;
+}
+
+.details p {
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+    .contact-info {
+        flex-direction: column;
+    }
+}
